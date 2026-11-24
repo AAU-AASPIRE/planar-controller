@@ -1,3 +1,5 @@
+<img src=".github/icon.png" alt="" width="96" align="right">
+
 # planar-controller
 
 Controls a Planar Motor table (PMC) and offers it over OPC UA, built like the lab's generated
