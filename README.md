@@ -14,14 +14,14 @@ On a Linux machine that can reach the PMC (it installs Docker if it is missing, 
 and starts the controller; it restarts with the machine):
 
 ```bash
-curl -fsSL https://raw.githubusercontent.com/AAUSmartProductionLab/planar-controller/main/install.sh \
+curl -fsSL https://raw.githubusercontent.com/AAU-AASPIRE/planar-controller/main/install.sh \
   | bash -s -- --pmc-ip 192.168.10.100 --autostart
 ```
 
 or from a clone:
 
 ```bash
-git clone https://github.com/AAUSmartProductionLab/planar-controller.git
+git clone https://github.com/AAU-AASPIRE/planar-controller.git
 cd planar-controller
 ./install.sh --pmc-ip 192.168.10.100 --autostart
 ```

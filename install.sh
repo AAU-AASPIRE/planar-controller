@@ -2,7 +2,7 @@
 # Install the planar controller on a Linux machine and start it with Docker Compose.
 #
 # On a fresh machine:
-#   curl -fsSL https://raw.githubusercontent.com/AAUSmartProductionLab/planar-controller/main/install.sh \
+#   curl -fsSL https://raw.githubusercontent.com/AAU-AASPIRE/planar-controller/main/install.sh \
 #     | bash -s -- --pmc-ip 192.168.10.100
 # From a clone of the repository:
 #   ./install.sh --pmc-ip 192.168.10.100
@@ -21,7 +21,7 @@
 #   -h, --help        this text
 set -euo pipefail
 
-REPO_URL="https://github.com/AAUSmartProductionLab/planar-controller.git"
+REPO_URL="https://github.com/AAU-AASPIRE/planar-controller.git"
 DIR="${HOME}/planar-controller"
 BRANCH="main"
 START=1
